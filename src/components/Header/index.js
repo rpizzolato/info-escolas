@@ -4,12 +4,15 @@ import './style.css';
 const Header = () => {
   return (
     <header id="main-header">
-      <div>
-        <h3>SME Piracicaba</h3>
+      <div className="container">
+        <div>
+          <h3>SME Piracicaba</h3>
+        </div>
+        <div>
+          <input type="text" name="search" placeholder="Pesquisar" />
+        </div>
       </div>
-      <div>
-        <input type="text" name="search" />
-      </div>
+      
     </header>
   )
 }
