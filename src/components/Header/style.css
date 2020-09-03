@@ -10,14 +10,15 @@ header#main-header {
   font-size: 18px;
   font-weight: bold;
   color: #fff;
+  margin-bottom: 20px;
 
 }
 
 header#main-header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
   border: 0px solid black;
 }
@@ -29,7 +30,9 @@ header#main-header .container input {
   width: 400px;
   height: 35px;
   line-height: 1.6;
-  margin-right: 400px;
+  margin: 0 5px 0 300px;
+  border-radius: 5px;
+  padding: 0 0 0 5px;
   color: rgb(20, 16, 16);
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaSearch } from 'react-icons/fa';
 import './style.css';
 
 const Header = () => {
@@ -6,10 +7,10 @@ const Header = () => {
     <header id="main-header">
       <div className="container">
         <div>
-          <h3>SME Piracicaba</h3>
+          <h3>SME Piracicaba - Pesquisa de Escolas</h3>
         </div>
         <div>
-          <input type="text" name="search" placeholder="Pesquisar" />
+          <input type="text" name="search" placeholder="Pesquisar" /><FaSearch />
         </div>
       </div>
       
