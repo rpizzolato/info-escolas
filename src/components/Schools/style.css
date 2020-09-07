@@ -1,0 +1,16 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 0px solid black;
+}
+
+.school {
+  width: 1200px;
+}
+
+.school__data {
+  width: calc(100% / 7);
+  padding: 0 10px;
+  margin: 0 40px;
+  font-weight: bold;
+}

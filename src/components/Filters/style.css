@@ -1,0 +1,71 @@
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  border: 0px solid black;
+}
+
+input {
+  font-size: 18px;
+  padding-top: 5px;
+  color: #807e7e;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  box-shadow: 0 1px 5px  #c8c8c8;
+}
+
+button {
+  border: 1px solid #c8c8c8;
+  color: #807e7e;
+  font-weight: 600;
+  padding: 0 10px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.selected {
+  border: 1px solid #c8c8c8;
+  color: #fff;
+  background-color: #2196F3;
+  font-weight: 600;
+  padding: 0 10px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.filters__search__icon {
+  position: relative;
+  left: -60px;
+  top: 2px;
+  background: transparent;
+  border: none;
+  color: #c8c8c8;
+  outline: none;
+}
+
+::placeholder {
+  font-size: 18px;
+  font-weight: bold;
+  color: #c8c8c8;
+}
